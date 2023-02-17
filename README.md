@@ -10,7 +10,9 @@ small repo to reproduce vscode foam extension bug on rg processes
 - python==3.9.13
 - VSCode Version 1.75.1
 
-![](https://raw.githubusercontent.com/simeld/bug_vscode_foam_rg/main/2023-02-17-08-27-55.png))
+![](./vscode_version.png)
+
+see image in ´´´./vscode_version.png´´´
 
 ## Steps to reproduce minimal example
 
@@ -28,7 +30,9 @@ small repo to reproduce vscode foam extension bug on rg processes
 - vscode spawns massive amounts of rg processes which take up all memory (and
   cpu)
 
-  ![](https://raw.githubusercontent.com/simeld/bug_vscode_foam_rg/main/2023-02-17-08-33-38.png)
+  ![](./rg_processes.png)
+
+  see image in ´´´./rg_processes.png´´´
 
 ## Cause
 
