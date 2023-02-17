@@ -1,6 +1,7 @@
 # bug_vscode_foam_rg
 
-small repo to reproduce vscode foam extension bug on rg processes
+Small repo to reproduce vscode foam extension bug on rg processes reported at:
+https://github.com/foambubble/foam/issues/1167
 
 ## Steps to reproduce VSCode foam extension rg process bug
 
