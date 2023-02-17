@@ -12,7 +12,7 @@ small repo to reproduce vscode foam extension bug on rg processes
 
 ![](./vscode_version.png)
 
-see image in ´´´./vscode_version.png´´´
+see image in `./vscode_version.png`
 
 ## Steps to reproduce minimal example
 
@@ -32,7 +32,7 @@ see image in ´´´./vscode_version.png´´´
 
   ![](./rg_processes.png)
 
-  see image in ´´´./rg_processes.png´´´
+  see image in `./rg_processes.png`
 
 ## Cause
 
