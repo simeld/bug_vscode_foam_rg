@@ -21,8 +21,8 @@ see image in `./vscode_version.png`
    https://marketplace.visualstudio.com/items?itemName=foam.foam-vscode
 3. Initiate virtual environment in terminal
 
-   ```console
-   $ python -m venv env
+   ```powershell
+   python -m venv env
    ```
 
 ## Resulting behaviour
@@ -41,11 +41,17 @@ see image in `./vscode_version.png`
 
   - Running the below command in powershell
     ```powershell
-    $ (Get-Process rg)[0].CommandLine
+    (Get-Process rg)[0].CommandLine
     ```
     returns:
     ```powershell
-    "c:\...\Microsoft VS Code\resources\app\node_modules.asar.unpacked\@vscode\ripgrep\bin\rg.exe" --files --hidden --case-sensitive -g **/* -g !**/.git -g !**/.svn -g !**/.hg -g !**/CVS -g !**/.DS_Store -g !**/Thumbs.db -g !/{**/.vscode/**/*,**/_layouts/**/*,**/_site/**/*,**/node_modules/**/*,**/.git,**/.svn,**/.hg,**/CVS,**/.DS_Store,**/Thumbs.db} --no-ignore --no-config --no-ignore-global
+    "c:\...\Microsoft VS Code\resources\app\node_modules.asar.
+    unpacked\@vscode\ripgrep\bin\rg.exe" --files --hidden
+    --case-sensitive -g **/* -g !**/.git -g !**/.svn -g !**/.hg -g
+    !**/CVS -g !**/.DS_Store -g !**/Thumbs.db -g !/{**/.vscode/**/*,
+    **/_layouts/**/*,**/_site/**/*,**/node_modules/**/*,**/.git,**/.
+    svn,**/.hg,**/CVS,**/.DS_Store,**/Thumbs.db} --no-ignore
+    --no-config --no-ignore-global
     ```
 
 ## Possible solution
