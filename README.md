@@ -10,7 +10,7 @@ small repo to reproduce vscode foam extension bug on rg processes
 - python==3.9.13
 - VSCode Version 1.75.1
 
-![](2023-02-17-08-27-55.png)
+![](./2023-02-17-08-27-55.png)
 
 ## Steps to reproduce minimal example
 
@@ -26,7 +26,9 @@ small repo to reproduce vscode foam extension bug on rg processes
 ## Resulting behaviour
 
 - vscode spawns massive amounts of rg processes which take up all memory (and
-  cpu) ![](2023-02-17-08-33-38.png)
+  cpu)
+
+  ![](./2023-02-17-08-33-38.png)
 
 ## Cause
 
